@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Thi spart is dedicated to the navbar */
+nav {
+    background-color: beige;
+    height: 10%;
+    width: 100%;
+}
+
+
+
+
+/* This part is for the body */
+body {
+    background-color: aquamarine;
+    height: 90%;
+}
+
+/* the rows section */
+.rows-1 {
+    background-color: aliceblue;
+    height: 15%;
+    width: 100%;
+}
+
+/* colms  */
+.colms {
+    background-color: white;
+    height: 0 auto;
+    width: 20%;
+}
