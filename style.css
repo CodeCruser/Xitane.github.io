@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* Thi spart is dedicated to the navbar */
+/* This part is dedicated to the navbar */
 nav {
     background-color: rgba(0, 0, 0, 0.5) !important;
     height: 10%;
@@ -21,8 +21,6 @@ ul {
 li {
     border: 1px solid rgb(164, 158, 158) ;
     border-radius: 30%;
-    /* display: flex;
-    justify-content: space-between; */
 
     padding: 10px;
     list-style: none;
@@ -42,9 +40,22 @@ a {
 
 /* This part is for the body */
 body {
-    /* background-color: rgb(134, 134, 134); */
     height: 100vh;
-    /* display: inline-block; */
+}
+.title h1 {
+    background-image: url("https://media0.giphy.com/media/l396ISDU0oS6gDIUU/200.webp?cid=ecf05e47yhbjsxqfrjc3f8j09ja0vd1tyqhjt4i28czjb9zp&rid=200.webp&ct=g ");
+    background-size: cover;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+    /* transition-duration: 100; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;;
+}
+.title div {
+    display: flex;
+    
 }
 
 /* the rows section */
@@ -84,14 +95,9 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    /* height: 0 auto; */
-    /* width: 20%; */
 }
 /* images  */
 .flip {
-    display: inline;
-    /* justify-content: center; */
-    /* align-items: center; */
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
 }
