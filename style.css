@@ -5,30 +5,93 @@
 
 /* Thi spart is dedicated to the navbar */
 nav {
-    background-color: beige;
+    background-color: rgba(0, 0, 0, 0.5) !important;
     height: 10%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
+li {
+    border: 1px solid rgb(164, 158, 158) ;
+    border-radius: 30%;
+    /* display: flex;
+    justify-content: space-between; */
+
+    padding: 10px;
+    list-style: none;
+}
+a {
+    color: rgb(255, 252, 252);
+    font-size: large;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
 /* This part is for the body */
 body {
-    background-color: aquamarine;
-    height: 90%;
+    /* background-color: rgb(134, 134, 134); */
+    height: 100vh;
+    /* display: inline-block; */
 }
 
 /* the rows section */
 .rows-1 {
-    background-color: aliceblue;
-    height: 15%;
+    position: relative;
+    background-color: rgb(18, 76, 128);
+    display: flex;
+    
+    height: 30%;
+    width: 100%;
+}
+.rows-2 {
+    background-color: rgb(25, 42, 56);
+    display: inline-block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.rows-3 {
+    background-color: rgb(170, 43, 151);
+    display: inline-block;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+.rows-4 {
+    background-color: rgb(59, 62, 64);
+    display: inline-block;
+    justify-content: center;
+    height: auto;
     width: 100%;
 }
 
 /* colms  */
 .colms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
-    height: 0 auto;
-    width: 20%;
+    /* height: 0 auto; */
+    /* width: 20%; */
+}
+/* images  */
+.flip {
+    display: inline;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 20px;
+    width: 20px;
 }
