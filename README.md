@@ -5,6 +5,6 @@ and once the user detects the identical pictures they get removed or (shadowed =
 #still working on the js script 
 
 
-#{Day 1} ==> Working for the first day in this project I learned:
+# {Day 1} ==> Working for the first day in this project I learned:
   --I have to create classes for elements even if I don't have their pairs (just to keep the probability of updating it easy);
-#{Day 2} ==> While I was wondering how I would configure the js logic out I stumbled into a wonderful website (Webtips.com).
+# {Day 2} ==> While I was wondering how I would configure the js logic out I stumbled into a wonderful website (Webtips.com).
