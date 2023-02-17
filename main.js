@@ -28,6 +28,9 @@ const shuffle = array => {
 
     return clonedArray
 }
+//teting isn't that randomize please stop reffiling//
+// this will be full of the comment//
+// t
 
 const pickRandom = (array, items) => {
     const clonedArray = [...array]
