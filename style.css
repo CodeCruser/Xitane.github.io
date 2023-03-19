@@ -57,6 +57,7 @@ a:hover{
 /* This part is for the body */
 body {
     /* height: 100vh; */
+    background-color: blue;
     
 }
 main {
